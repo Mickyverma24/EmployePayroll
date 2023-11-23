@@ -15,9 +15,9 @@ abstract class Employee{
     public int getId(){
         return this.id;
     }
+    abstract public int calulateSarlary();
     @Override
     public String toString(){
-        return "";
+        return "Employee [name= " + name + ", id= " + id + ", salary= " + calulateSarlary() + "]";
     }
-    abstract public int calulateSarlary();
 }

@@ -10,7 +10,8 @@ public class FulltimeEmployee extends Employee {
         this.salaryPerMonth = salaryPerMonth;
     }
     public int calulateSarlary(){
-        return this.salaryPerMonth;
+        // return this.salaryPerMonth;
+        return salaryPerMonth;
     }
 
 }
